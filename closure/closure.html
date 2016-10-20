@@ -18,13 +18,13 @@
     (function () {
         'use strict';
         var nodes = document.getElementsByTagName('div');
-//        闭包案例
+        //        闭包案例
         /*        for (var i = 0, length = nodes.length; i < length; i++) {
          nodes[i].onclick = function () {
          console.log(i);
          }
          }*/
-//        如何避免非意愿行为的产生
+        //        如何避免非意愿行为的产生
         for (var i = 0, length = nodes.length; i < length; i++) {
             (function (i) {
                 nodes[i].onclick = function () {

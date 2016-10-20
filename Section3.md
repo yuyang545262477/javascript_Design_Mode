@@ -6,6 +6,9 @@
  2. 变量的生命周期  (查看lifeCycle.js)
  
 一个非常经典的closure案例(closure.html)
+闭包的基本作用
+ 1. 封装变量
+ 2. 延续局部变量的寿命
  
 
  
