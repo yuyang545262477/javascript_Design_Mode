@@ -19,7 +19,7 @@
             return instance;
         };
     })();
-
+    
     var a = SingleTon.getInstance('yu');
     var b = SingleTon.getInstance('yang');
 
