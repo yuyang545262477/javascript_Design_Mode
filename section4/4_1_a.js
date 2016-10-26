@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-
+    //    传统单例实现方式一
     var singTon = function (name) {
         this.name = name;
         this.instance = null;
